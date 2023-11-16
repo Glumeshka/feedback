@@ -1,0 +1,40 @@
+<body>
+	<main class="container_login">
+		<div class="d-flex justify-content-center h-100 col" >
+			<div class="card_login">
+				<div class="card-body">
+					<form method="post" action="/Main/Input">
+						<input type="text" name="site_name" value="site_name_one" hidden>
+						<input type="text" name="name_form" value="name_form_one" hidden>				
+						<div class="card-header justify-content-center">
+                        	<h5>Форма Один</h5>
+				        </div>
+						<div class="input-group form-group">
+							<textarea class="form-control" placeholder="text" name="text" required></textarea>
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Отправить" class="btn float-right regist_btn">
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="card_login">	
+				<div class="card-body">
+					<form method="post" action="/Main/Input">
+						<input type="text" name="site_name" value="site_name_one" hidden>
+						<input type="text" name="name_form" value="name_form_two" hidden>				
+						<div class="card-header justify-content-center">
+                        	<h5>Форма Два</h5>
+				        </div>
+						<div class="input-group form-group">
+							<textarea class="form-control" placeholder="text" name="text" required></textarea>
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Отправить" class="btn float-right regist_btn">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
